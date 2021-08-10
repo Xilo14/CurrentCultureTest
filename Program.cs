@@ -27,6 +27,11 @@ namespace CurrentCultureTest
             Console.WriteLine($"Total amount pairs in 'counts2': {counts2.Count()}");
             Console.WriteLine($"Total amount pairs in 'threads2': {threads2.Count()}");
 
+            // Total amount of cultures: 813
+            // Total amount pairs in 'counts1': 813
+            // Total amount pairs in 'threads1': 13
+            // Total amount pairs in 'counts2': 813
+            // Total amount pairs in 'threads2': 13
             Console.ReadLine();
         }
         async static Task Work(CultureInfo culture)
